@@ -1,5 +1,6 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
+// Creates a badge to appear on the generated README file. 
 function renderLicenseBadge(license) {
   let licenseBadge = '';
 
@@ -22,6 +23,7 @@ function renderLicenseBadge(license) {
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
+// This code sends a link for the license selected explaining more of its functionality. 
 function renderLicenseLink(license) {
   let licenseLink = '';
 
@@ -43,6 +45,7 @@ function renderLicenseLink(license) {
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
+// A short description of the licsence selected. 
 function renderLicenseSection(license) { 
   let licenseSelection = '';
 
@@ -57,6 +60,7 @@ function renderLicenseSection(license) {
 }
 
 // TODO: Create a function to generate markdown for README
+// Creates the structure of the README file
 function generateMarkdown(data) { //create README template here
   return `
   # ${data.title}

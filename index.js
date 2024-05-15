@@ -1,9 +1,11 @@
 // TODO: Include packages needed for this application (defining variables) (inquier package, color) (Packages for node)
+// All packages used for the application to function. 
 const inquirer = require('inquirer');
 const fs = require("fs");
 const colors = require("colors");
 const generateMarkdown = require("./utils/generateMarkdown")
 // TODO: Create an array of questions for user input (inquirer README docs website)
+// An array of the questions the user will be asked
 const questions = [
   {
     type: 'title',
@@ -55,6 +57,7 @@ const questions = [
 
 
 // TODO: Create a function to write README file (Need 'fs')
+// Writes all data collected above to the README template
 function writeToFile(fileName, data) {
 
   fs.writeFile(fileName, data, (err) => {
@@ -67,6 +70,7 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app (initialize inquier)
+// Setting up the name of the new file and pasting the answers to it
 function init() {
   inquirer.prompt(questions).then((answers) => {
   writeToFile('New_README.md', generateMarkdown(answers))
