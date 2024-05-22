@@ -100,6 +100,13 @@ function generateMarkdown(data) { //create README template here
   ## Collaborators
 
   ${data.collaborators}
+
+  ## Contact Me
+
+  ${data.email}
+
+  ${data.github}
+
 `;
 }
 

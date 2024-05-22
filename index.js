@@ -42,6 +42,16 @@ const questions = [
     name: 'collaborators',
     message: 'Please list all collaborators for this project',
   },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'Please Enter your email address',
+  },
+  {
+    type: 'input',
+    name: 'github',
+    message: 'Please enter your GitHub Repository Link',
+  },
   { 
     type: "list",
     message: "What color would you like to use?",

@@ -1,11 +1,11 @@
 
-  # Weather Page
+  # Logo Generator
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  
 
   ## Description
 
-  A weather website for forecasting the weather
+  This project makes generating a simple logo, for personal use and commercial use, simple and fast. The user will only need to follow a few steps to run the application for an svg logo output. 
 
   ## Table of Contents
 
@@ -17,22 +17,18 @@
 
   ## Installation
 
-  1 2 3 , a b c
+  All packages required to run the application are already installed. The user will only need to run the node command to run the application prompts . The user can then answer the prompt questions to generate the logo that they desire
 
   ## Usage
 
-  Enter a city, read data
+  1. Run node index.js in live terminal 
+  2. Answer the promp questions 
+  3. Right click on logo.svg file and open in live server. 
+  (Note: The parameters for the shapes are fit for 3 Characters.)
 
   ## License
-
-  [MIT](https://choosealicense.com/licenses/mit/)
-
-  A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
-
-  ## Features
-
-  4 5 6
+  N/A
 
   ## Collaborators
 
-  Zach Frost
+  Zachary Magras
