@@ -1,11 +1,11 @@
 
-  # Logo Generator
+  # README Generator
 
-  
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
 
-  This project makes generating a simple logo, for personal use and commercial use, simple and fast. The user will only need to follow a few steps to run the application for an svg logo output. 
+  This project utilizes node JS, along with fs, inquierer, and a colors package using npm to install. The purpose of this project is to easily generate README Files for any project. The user can use this code by using a Node plugin to generate a README file organized with coded sections. 
 
   ## Table of Contents
 
@@ -17,18 +17,29 @@
 
   ## Installation
 
-  All packages required to run the application are already installed. The user will only need to run the node command to run the application prompts . The user can then answer the prompt questions to generate the logo that they desire
+    All packages required to run the application are already installed. The user will only need to run the node command to run the application prompts . The user can then answer the prompt questions to generate the README file that they desire
 
   ## Usage
 
-  1. Run node index.js in live terminal 
-  2. Answer the promp questions 
-  3. Right click on logo.svg file and open in live server. 
-  (Note: The parameters for the shapes are fit for 3 Characters.)
+    1. Run node index.js in live terminal   2. Answer the prompt questions   3. Open New_README.md file and make any slight adjustments  
 
   ## License
-  N/A
+
+  [MIT](https://choosealicense.com/licenses/mit/)
+
+  A short and simple permissive license with conditions only requiring preservation of copyright and license notices. Licensed works, modifications, and larger works may be distributed under different terms and without source code.
+
+  ## Features
+
+  Color package for additional README styling
 
   ## Collaborators
 
   Zachary Magras
+
+  ## Contact Me
+
+  jsmith@gmail.com
+
+  https://github.com/zachfrosty4986/readme-form
+
